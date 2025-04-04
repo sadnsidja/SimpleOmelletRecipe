@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Young Serif";
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-block: 100px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 50px;
+    width: 1400px;
+    height: auto;
+    max-width: 80vw;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    width: 100vw;
+    height: auto;
+    max-width: 100%
+}
+
+div {
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    line-height: 50px;
+}
+
+div li::marker {
+    color: hsl(332, 51%, 32%)
+}
+
+li {
+    padding-left: 20px;
+    line-height: 40px
+}
+
+.purple-text {
+    color: hsl(332, 51%, 32%)
+}
+
+.brown-text, li::marker{
+    color: hsl(14, 45%, 36%)
+}
+
+hr {
+    background-color: hsl(30, 18%, 87%);
+    height: 1px;
+    border: none
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    line-height: 40px;
+}
+
+tr td:nth-child(2) {
+    padding-right: 100px;
+    color: hsl(14, 45%, 36%)
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%)
+}
